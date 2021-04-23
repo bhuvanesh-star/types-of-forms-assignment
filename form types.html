@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form types</title>
+    </head>
+    <body bgcolor="lightgrey">
+        <h1 align="center">TYPES OF FORMS</h1>
+        <form method="post" enctype="multipart/form-data">
+            <h2><i>Application form: Front End Developement</i></h2>
+            <input type="hidden" name="hfsub" value="edit">
+
+
+           <input type="text" name="username" placeholder="enter name"><br><br>
+           <input type="email" name="mail id" placeholder="enter mail id"><br><br>
+           <input type="tel" name="mobile num" placeholder="enter mobile number"><br><br>
+
+           Subjects:<br><input type="checkbox" name="check" value="html">HTML<br>
+            <input type="checkbox" name="check" value="css">CSS<br>
+            <input type="checkbox" name="check" value="js">JS<br>
+
+            <br><br>
+            
+            Address:<br> <textarea rows="15" cols="30"> </textarea>
+            
+            <br><br>
+            Location:<br>
+            <select name="location" multiple size="5">
+                <option value="c1"> Chennai </option>
+                <option value="c2"> Madurai </option>
+                <option value="c3"> dindugal </option>
+                <option value="c4"> Pondy </option>
+                <option value="c5"> Theni </option>
+                <br><br>
+            </select>
+            <br><br>
+
+            Upload CV:<br>
+            <input type="file" name="cv">
+            <br><br>
+
+            I agree to the terms and hereby confirm that the given details are true.<br>
+            <input type="checkbox" required><br><br>
+            <input type="submit" value="login"><br>
+        </form>
+        <hr>
+        <hr>
+        <br>
+        <br>
+        <br>
+            <form> 
+                <h1><i>Signup Form</i></h1><br>
+                <input type="text" name="username" placeholder="enter username"><br><br>
+                <input type="email" name="mail id" placeholder="enter mail id" required><br><br>
+                <input type="tel" name="mobile number" placeholder="enter mobile No." required><br><br>
+                <input type="password" pattern="/^\w+([\.-]?\w+)*@\w+([.\-]?\w+)*(\.\w{2,3})+$/" name="password" placeholder="enter password" required><br><br>
+                <input type="password" name="password" placeholder="confirm password" required><br><br>
+                <input type="reset" value="clear"><br><br>
+                <input type="image" src="sign up button.png" value="Image button">
+            </form>
+        <hr>
+        <hr>
+        <br>
+        <br>
+
+
+    </body>
+</html>
